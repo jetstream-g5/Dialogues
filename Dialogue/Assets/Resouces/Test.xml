@@ -1,0 +1,64 @@
+<dialogue>
+	<messages>
+		<message id="1">
+			<source>Dora</source>
+			<text>Zullen we op de kaart kijken?</text>
+      <destinations>
+        <destination>2</destination>
+        <destination>5</destination>
+      </destinations>
+      <options>
+            <option>Ja!</option>
+			      <option>Nee.</option>
+      </options>
+		</message>
+		<message id="2">
+			<source>Dora</source>
+      <text>Op de kaart op de kaart... waar zoek je voor?</text>
+      <destinations>
+        <destination>3</destination>
+        <destination>4</destination>
+      </destinations>
+      <options>
+        		<option>Een goudmijn.</option>
+			      <option>Mijn grootmoeder!</option>
+      </options>
+		</message>
+		<message id="3">
+			<source>Dora</source>
+			<text>Ja, ga maar die kant op.</text>
+      <destinations>
+        <destination>0</destination>
+      </destinations>
+      <options>
+        		<option>Zal ik doen!</option>
+      </options>
+		</message>
+		<message id="4">
+			<source>Dora</source>
+			<text>Naar het noorde!</text>
+      <destinations>
+        <destination>0</destination>
+      </destinations>
+          <options>
+        			<option>Oke! dankjewel.</option>
+          </options>
+		</message>
+		<message id="5">
+			<source>Dora</source>
+			<text>Oke doei.</text>
+      <destinations>
+        <destination>0</destination>
+      </destinations>
+          <options>
+        			<option>Doei.</option>
+          </options>
+		</message>
+	</messages>
+	<flow>
+		<show id="1">
+		
+		</show>
+	</flow>
+</dialogue>
+			
